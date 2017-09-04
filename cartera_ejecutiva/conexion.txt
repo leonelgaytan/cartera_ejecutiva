@@ -1,0 +1,11 @@
+http://carteraejecutiva.sep.gob.mx/proyectos
+LOGIN LDAP (Rebeca Serafin u Omar Xancopinca 55856)
+
+HOSTING
+172.31.70.5
+
+DATABASE
+HOST : 172.31.72.3
+DB: CARTERA_EJECUTIVA
+USER : root
+PASS :Password123$

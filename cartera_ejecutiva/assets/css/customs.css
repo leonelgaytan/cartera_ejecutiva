@@ -1,0 +1,204 @@
+.logoSep{
+	margin-top: -125px;
+}
+
+.invisible{
+	display: none;
+}
+
+.loginInfo{
+	font-size: 16px;
+}
+
+.sisHeader{
+	margin-top: -75px;
+	margin-bottom: 50px;
+}
+
+.sisNavbar{
+	position: relative;
+	background: #EEE;
+}
+
+.sisInstrucciones{
+	color: #a82509;
+	font-weight: bold;
+}
+
+.divInstrucciones{
+	border: 1px solid #999;
+	padding: 10px 10px 10px 10px;
+	-webkit-box-shadow: 1px -1px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px -1px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px -1px 10px 0px rgba(0,0,0,0.75);
+	background: #eee;
+}
+
+.divInstrucciones li{
+	margin-left: 20px;
+}
+
+
+.divForm{
+	margin-top: 25px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.sisBtn{
+	margin-top: 50%;
+}
+
+.divResultados{
+
+}
+
+#tblRegistros{
+	margin: 15px 15px 15px 15px;
+	width: 97%;
+}
+
+.etiqueta{
+	font-weight: bold;
+}
+
+.infoPaso{
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+}
+.tdTitulo{
+	background: #ddd;
+	font-weight: bold;
+	color: #a82509;
+}
+
+.marginTop10{margin-top: 10px;}
+.marginTop20{margin-top: 20px;}
+.marginTop30{margin-top: 30px;}
+
+.borderLeft{
+	border-left: 1px solid #999;
+}
+
+.divFormInfo{
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid #ddd;
+}
+
+.rowDivision{
+	margin: 3px 3px 3px 3px;
+	padding-top: 7px;
+	border: 1px solid #ddd;
+	background: #ddd;
+	font-weight: bold;
+	color: #a82509;
+}
+
+.rowBorder{
+	margin-right: 4px;
+	margin-left: 4px;
+	border: 1px solid #ddd;
+	min-height: 45px;
+}
+
+#list5 { color:#333; }
+#list5 ol { font-size:18px; }
+#list5 ol li { }
+#list5 ol li ol { 
+	list-style-image: url("../images/nested.png"); padding:5px 0 5px 18px; font-size:15px; }
+#list5 ol li ol li { 
+	color:#666;
+	height:15px;
+	margin-left:10px; 
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.6em;    
+}
+
+li ol > li {
+  margin: 0;
+}
+
+li ol > li:before {
+  content: counters(item, ".") " ";
+}
+
+img.imgManual {
+   padding:1px;
+   border:1px solid #ddd;
+   background-color:#999;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   max-width: 750px;
+}
+
+.titulo{
+	background-color:#ddd;
+	padding: 5px 5px 5px 5px;
+	color:#666;
+	font-weight: bold;
+	text-align: center;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #333;
+    color: #999;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
+
+select{
+	max-width:500px;
+}
+
+
+.spanId{
+	font-size: 12px;
+}
+
+.help{
+	font-size: 10px;
+	color: #333;
+}
